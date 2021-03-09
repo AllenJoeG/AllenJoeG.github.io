@@ -1,0 +1,72 @@
+* {
+  max-width: 900px;
+}
+
+body {
+  background: rgba(204, 204, 204, 0.76);
+}
+
+.contact {
+background-color: rgba(127, 143, 160, 0.9);
+padding: 7px;
+}
+
+#headshot {
+  float: right;
+  max-width: 200px;
+}
+
+.employers {
+color: black;
+background-color:  #3587A4;
+position: absolute left;
+padding: 2px;
+
+}
+
+.duties {
+padding: 5px;
+border: 2px dotted;
+min-width: 400px;
+overflow: scroll;
+}
+
+.navigation {
+  box-sizing: border-box;
+  background-color: #3587A4;
+  overflow: auto;
+  padding: 18px 50px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+/* Job Description Content */
+li {
+  color: rgb(0, 0, 0);
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+/* Job title & Date Range */
+table.employers {
+  color: #000000;
+}
+
+tr {
+  background-color: lightblue;
+  margin-bottom: 5px;
+  
+}
+
+td {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  padding: 4px;
+  text-align: left;
+  font-size: 14px;
+}
